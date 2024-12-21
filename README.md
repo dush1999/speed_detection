@@ -1,2 +1,4 @@
 # speed_detection
 Detecting the speed of vehicles using Yolo and opencv
+
+This project implements real-time vehicle speed detection using the YOLOv8 object detection model, OpenCV, and a custom tracker. It processes a video file to detect vehicles (specifically cars) and calculate their speeds as they pass through two lines (red and blue) drawn across the video frame. By calculating the time it takes for a vehicle to travel between these lines, the system estimates its speed in km/h. If the vehicle exceeds a defined speed limit, it is flagged with a warning. The project also includes a counter to track the number of vehicles moving in both directions, and stores each processed frame for future reference. This system is ideal for traffic monitoring or speed violation detection in video streams.
